@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm thẻ block</title>
+</head>
+
+<body>
+    <h2>CÁC THẺ TIÊU ĐỀ HX - H1-H6</h2>
+    <h1>Thẻ tiêu đề h1, kích cỡ to nhất và quan trọng nhất</h1>
+    <h2>Thẻ tiêu đề h2, kích cỡ to thứ 2 và quan trọng thứ 2</h2>
+    <h3>Thẻ tiêu đề h3, kích cỡ to thứ 3 và quan trọng thứ 3</h3>
+    <h4>Thẻ tiêu đề h4, kích cỡ to thứ 4 và quan trọng thứ 4</h4>
+    <h5>Thẻ tiêu đề h5, kích cỡ to thứ 5 và quan trọng thứ 5</h5>
+    <h6>Thẻ tiêu đề h6, kích cỡ nhỏ nhất và ít quan trọng nhất</h6>
+    <!-- Ctrl + /: self-closing: thẻ mở cũng là thẻ đóng, không có nội dung -->
+    <hr />
+    <h2>THẺ ĐỊNH DẠNG ĐOẠN VĂN - p</h2>
+    <!-- Căn chỉnh - format document - alt + shift + f -->
+    <p>Gia đình chủ nhà đang đi làm tại khu công nghiệp, không có mặt ở địa phương.<br /> Thời gian qua nhiều du khách
+        đã tự ý
+        vào đây để chụp ảnh chứ không có chuyện thu vé tham quan”, vị lãnh đạo xã nói và cho biết vị trí này chỉ có độc
+        nhất một căn nhà, không có hộ dân khác đồng thời địa phương chưa có quyết định chấp thuận nơi này trở thành điểm
+        tham quan, du lịch</p>
+
+    <p>Sau khi nắm bắt được sự việc, lãnh đạo UBND xã Pả Vi đã yêu cầu chính quyền thôn Mã Pì Lèng cắm biển cấm du khách
+        tự ý vào ngôi nhà để chụp ảnh. Vị này lý giải vị trí từ khu vực sàn bê tông xuống mặt đất chỉ khoảng hơn 10 m,
+        tuy nhiên nơi này có diện tích nhỏ, độ dốc rất lớn. Do vậy, khi có nhiều người cùng tập trung lại không có sự
+        quản lý thì rất dễ xảy ra tai nạn.</p>
+    <hr />
+    <h2>DANH SÁCH CÓ MÔ TẢ - dl,dt,dd</h2>
+    <!-- dl: xác định một danh sách
+        dt: xác định một mục trong danh sách
+        dd: xác định mô tả cho một mục trong danh sách
+    -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Ngôn ngữ đánh dấu siêu văn bản giúp xây dựng các thành phần và bố cục trang web</dd>
+        <dt>CSS</dt>
+        <dd>Ngôn ngữ định kiểu giúp định kiểu các thành phần của trang web</dd>
+        <dt>Javascript</dt>
+        <dd>Ngôn ngữ lập trình giúp xây dựng các chức năng của ứng dụng web.<br />
+            Ngôn ngữ lập trình phổ biến nhất hiện nay
+        </dd>
+    </dl>
+    <hr />
+    <h2>DANH SÁCH CÓ THỨ TỰ - ol,li</h2>
+    <!--
+        ol: xác định một danh sách có thứ tự
+        li: xác định một mục trong danh sách được đánh thứ tự
+     -->
+    <ol type="I">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ol>
+    <hr />
+    <h2>DANH SÁCH KHÔNG CÓ THỨ TỰ - ul,li</h2>
+    <!-- 
+        ul: xác định danh sách không có thứ tự
+        li: xác định một mục trong danh sách
+     -->
+    <ul type="square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+    <hr />
+    <h2>ĐỊNH NGHĨA KHU VỰC CHỨA ĐIỀU HƯỚNG TRANG - nav</h2>
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Khóa học</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#">Lịch khai giảng</a></li>
+        </ul>
+    </nav>
+    <hr />
+    <h2>THẺ ĐỊNH NGHĨA KHU VỰC CÓ NỘI DUNG</h2>
+    <!-- 
+        header: xác định nội dung đầu trang
+        footer: xác định nội dung chân trang
+        section: xác định khu vực có nội dung độc lập - thường chứa các thẻ tiêu đề hx
+        article: xác định khu vực có nội dung riêng biệt - thường thể hiện các bài viết, blog, comment, banner quảng cáo...không phụ thuộc vào nội dung chính của trang
+        aside: xác định khu vực có nội dung phụ, bổ trợ cho nội dung chính của trang
+        div: xác định khối nội dung, thường sử dụng để chia các nội dung nhỏ trong các thẻ khu vực
+     -->
+    <header>
+        Khu vực chứa nội dung đầu trang
+        <div>
+            Chứa logo
+        </div>
+        <div>
+            Chứa slogan
+        </div>
+        <div>
+            Chứa ô tìm kiếm
+        </div>
+    </header>
+    <nav>
+        Khu vực chứa menu điều hướng trang
+    </nav>
+    <aside>
+        Nội dung phụ bên trái
+    </aside>
+    <section>
+        Nội dung chính của trang
+    </section>
+    <article>
+        Khu vực chứa các bài viết độc lập với nội dung chính
+        <section>
+            Bài viết 1
+        </section>
+        <section>Bài viết 2</section>
+        <section>Bài viết 3</section>
+    </article>
+    <aside>
+        Nội dung phụ bên phải
+    </aside>
+    <footer>
+        Nội dung chân trang
+    </footer>
+</body>
+
+</html>
